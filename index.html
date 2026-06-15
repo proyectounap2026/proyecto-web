@@ -82,11 +82,34 @@
       color:#333;
       box-shadow:2px 2px 8px rgba(0,0,0,0.2);
     }
+    form input,
+    form textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 10px auto;
+      display: block;
+      border: 1px solid #006400;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+    }
+    form button {
+      background: #006400;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    form button:hover {
+      background: #004d00;
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="imagen/logo.jpg" alt="Falta de soluciones frente a la contaminación: unión de malocas y reciclaje">
+    <img src="logo.jpg" alt="Falta de soluciones frente a la contaminación: unión de malocas y reciclaje">
     <h1>Falta de soluciones frente a la contaminación: unión de malocas y reciclaje</h1>
   </header>
 
@@ -99,10 +122,10 @@
     <a href="#mensajes">Mensajes</a>
   </nav>
 
-  <section id="galeria" class="galeria">
-    <h2>Galería</h2>
+  <section id="equipo" class="galeria">
+    <h2>Equipo del Proyecto</h2>
     <div style="background:#f5f5dc; padding:20px; border-radius:12px; border:2px solid #006400;">
-      <img src="imagenes/grupo1.jpg" alt="Grupo 1">
+      <img src="grupo1.jpg" alt="Grupo de estudiantes y equipo del proyecto en Contamana">
     </div>
   </section>
 
@@ -147,31 +170,30 @@
     <p>📧 Correo: <a href="mailto:proyectounap2026@gmail.com">proyectounap2026@gmail.com</a></p>
     <p>📞 Teléfono: <a href="tel:914408706">914408706</a></p>
     <form>
-      <input type="text" placeholder="Nombre"><br>
-      <input type="email" placeholder="Correo"><br>
-      <textarea placeholder="Mensaje"></textarea><br>
+      <input type="text" placeholder="Nombre" name="nombre"><br>
+      <input type="email" placeholder="Correo" name="correo"><br>
+      <textarea placeholder="Mensaje" name="mensaje"></textarea><br>
       <button type="submit">Enviar</button>
     </form>
   </section>
 
   <section id="mensajes">
     <h2>Mensajes Reflexivos</h2>
-    <blockquote>“En Contamana, cada aula y cada maloca se convierten en semillas de conciencia. Educar en medio de la selva es también educar para protegerla.”</blockquote>
-    <blockquote>“Los ríos y bosques de Contamana nos recuerdan que la vida depende de nuestro cuidado. Cada botella reciclada es un gesto de respeto hacia nuestra tierra.”</blockquote>
-    <blockquote>“Cuando Contamana se une, la esperanza florece. La contaminación no se vence con palabras, sino con acciones compartidas.”</blockquote>
-    <blockquote>“El futuro de Contamana no está escrito en papeles, sino en la manera en que cuidamos nuestros tachos, reciclamos y enseñamos a los niños a amar la naturaleza.”</blockquote>
-    <blockquote>“Somos hijos de la Amazonía. En Contamana, proteger el ambiente es proteger nuestra propia identidad.”</blockquote>
+    <blockquote>"En Contamana, cada aula y cada maloca se convierten en semillas de conciencia. Educar en medio de la selva es también educar para protegerla."</blockquote>
+    <blockquote>"Los ríos y bosques de Contamana nos recuerdan que la vida depende de nuestro cuidado. Cada botella reciclada es un gesto de respeto hacia nuestra tierra."</blockquote>
+    <blockquote>"Cuando Contamana se une, la esperanza florece. La contaminación no se vence con palabras, sino con acciones compartidas."</blockquote>
+    <blockquote>"El futuro de Contamana no está escrito en papeles, sino en la manera en que cuidamos nuestros tachos, reciclamos y enseñamos a los niños a amar la naturaleza."</blockquote>
+    <blockquote>"Somos hijos de la Amazonía. En Contamana, proteger el ambiente es proteger nuestra propia identidad."</blockquote>
   </section>
 
   <footer>
-    <p> 2026 Proyecto Falta de Soluciones Frente a la Contaminación -
-        Unión de Malocas y Reciclaje - Contamana, Loreto 
-    Todos los derechos reservados © 2026  
-Autor: Deyan García Urquia  
-
-Este proyecto es de uso personal y educativo.  
-No está permitido copiar, modificar ni distribuir sin autorización expresa del autor.
-</p>
+    <p>© 2026 Proyecto Falta de Soluciones Frente a la Contaminación -
+        Unión de Malocas y Reciclaje - Contamana, Loreto<br>
+    Todos los derechos reservados © 2026<br>
+    Autor: Deyan García Urquia<br><br>
+    Este proyecto es de uso personal y educativo.<br>
+    No está permitido copiar, modificar ni distribuir sin autorización expresa del autor.
+    </p>
   </footer>
 </body>
 </html>
